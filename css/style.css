@@ -2,7 +2,6 @@
   font-family: Chakobsa;
   src: url(../static/Chakobsa.ttf);
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 html {
   height: 100%;
@@ -10,6 +9,7 @@ html {
   margin: 0px;
   padding: 0px;
   font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
   background-color: #fdf6e3;
   color: #586e75;
 }
