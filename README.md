@@ -17,11 +17,11 @@ This is a site meant to assist people workign with [Neo-Chakobsa](https://wiki.l
 the conlang by [David J. Peterson](https://dedalvs.com/) for Denis Villeneuve's _Dune: Part One (2021)_ and _Dune:
 Part Two (2024)_.
 
-### Orthography Renderer
+### _Dinlih_ Renderer
 
-The Chakobsa Orthography Renderer allows the user to enter romanized
-Neo-Chakobsa, and the text will be copied into the Chakobsa orthography using
-the official font from DJP.
+The _Dinlih_ Renderer allows the user to enter romanized Neo-Chakobsa, and the
+text will be copied into the Chakobsa orthography (_Dinlih_) using the official font from
+DJP.
 
 ## Who
 
