@@ -13,8 +13,8 @@
 
 ## What
 
-This is a site meant to assist people workign with Neo-Chakobsa, the conlang by
-David J. Peterson for Denis Villeneuve's _Dune: Part One (2021)_ and _Dune:
+This is a site meant to assist people workign with [Neo-Chakobsa](https://wiki.languageinvention.com/index.php?title=Chakobsa_language),
+the conlang by [David J. Peterson](https://dedalvs.com/) for Denis Villeneuve's _Dune: Part One (2021)_ and _Dune:
 Part Two (2024)_.
 
 ### Orthography Renderer
