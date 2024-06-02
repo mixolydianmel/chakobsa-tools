@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chakobsa Renderer</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <script>
+    setInterval(() => {document.getElementById("rendered").innerHTML = document.getElementById("romanized").value}, 1000);
+  </script>
+  <body>
+    <div class="container">
+      <h1 class="pagetitle">Chakobsa Orthography Renderer</h1>
+      <h3 class="pagesubtitle">Sa fadla !</h3>
+      <textarea id="romanized">Sa fadla</textarea><br>
+      <p id="rendered"></p>
+    </div>
+  </body>
+</html>
