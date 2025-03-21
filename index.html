@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Chakobsa Renderer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-  <script>
-    setInterval(() => {document.getElementById("rendered").innerHTML = document.getElementById("romanized").value}, 1000);
-  </script>
-  <body>
-    <div class="container">
-      <h1 class="pagetitle"><em>Dinlih</em> Renderer</h1>
-      <h3 class="pagesubtitle">Dinlih</h3>
-      <textarea id="romanized">Sa fadla .</textarea><br>
-      <p id="rendered"></p>
-      <p class="footer">
-        Made with ❤️ by <a href="https://github.com/mixolydianmel/">Melody</a>
-      </p>
-    </div>
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chakobsa Renderer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<script>
+  setInterval(() => { document.getElementById("rendered").innerHTML = (document.getElementById("romanized").value + ' ').replaceAll(' ', ' &nbsp; ') }, 1000);
+</script>
+
+<body>
+  <div class="container">
+    <h1 class="pagetitle"><em>Dinlih</em> Renderer</h1>
+    <h3 class="pagesubtitle">Dinlih Ruzam</h3>
+    <textarea id="romanized">Sa fadla .</textarea><br>
+    <p id="rendered"></p>
+    <p class="footer">
+      Made with ❤️ by <a href="https://github.com/mixolydianmel/">Melody</a>
+    </p>
+  </div>
+</body>
+
 </html>
